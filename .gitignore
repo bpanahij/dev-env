@@ -23,3 +23,5 @@
 !.config/skhd/**/*
 !.config/scripts
 !.config/scripts/**/*
+!fzf-git.sh
+!fzf-git.sh/**/*

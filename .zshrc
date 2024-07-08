@@ -12,7 +12,9 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$PATH:/opt/homebrew/bin"
 export NVM_DIR="$HOME/.nvm"
-source ~/.nvm/nvm.sh
+if [[ -r $NVM_DIR ]]
+  source ~/.nvm/nvm.sh
+fi
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
