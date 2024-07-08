@@ -21,3 +21,5 @@
 !.config/fish/**/*
 !.config/skhd
 !.config/skhd/**/*
+!.config/scripts
+!.config/scripts/**/*

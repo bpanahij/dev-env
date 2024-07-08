@@ -83,8 +83,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 
-# chatgpt
-source .config/secrets_rc
 
 
 source $ZSH/oh-my-zsh.sh
