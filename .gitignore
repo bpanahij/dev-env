@@ -1,4 +1,5 @@
 *
+*.pyc
 !.gitignore
 !.p10k.zsh
 !.tmux.conf

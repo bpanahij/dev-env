@@ -86,7 +86,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 
 # chatgpt
-source .config/secrets_rc
+#source .config/secrets_rc
 
 
 source $ZSH/oh-my-zsh.sh
