@@ -23,3 +23,5 @@
 !.config/skhd/**/*
 !.config/scripts
 !.config/scripts/**/*
+**/*/*.pyc
+__pycache__

@@ -4,6 +4,8 @@ local opt = vim.opt
 
 opt.relativenumber = true
 opt.number = true
+-- opt.textwidth = 80
+opt.formatoptions:append("t")
 
 -- tabs & indentation
 opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
@@ -11,7 +13,8 @@ opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
-opt.wrap = false
+opt.wrap = true
+opt.linebreak = false
 
 -- search settings
 opt.ignorecase = true -- ignore case when searching
@@ -37,3 +40,5 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+-- Function to format the entire buffer using 'gq'
