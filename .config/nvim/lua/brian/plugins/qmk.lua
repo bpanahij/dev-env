@@ -11,6 +11,9 @@ return {
         "x x x x x x _ _ _ x x x x x x",
         "_ _ _ _ _ x x _ x x _ _ _ _ _",
       },
+      comment_preview = {
+        position = "inside",
+      },
     }
     require("qmk").setup(conf)
   end,
